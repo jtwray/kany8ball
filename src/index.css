@@ -128,7 +128,39 @@ button:hover {
   text-shadow: 0.74px 0.62px 1px white, -0.58px -1.76px 1px black,
     1.42px 1.24px 0px black, 1.52px -1.76px 0px black;
 }
+button:hover {
+  color: #d3d3d3;
+  background: #d3d3d3;
+  text-shadow: 0.74px 0.62px 1px #fff, -0.58px -1.76px 1px #000, 1.42px 1.24px 0 #000, 1.52px -1.76px 0 #000;
+  box-shadow: 3px 2px 2px 0 #000;
+  background: #760cc3;
+  font-size: 3rem;
+  cursor: pointer;
+  text-shadow: 1.1px 1.3px 0px rgba(222,183,251,.88), -1.3px -1.3px 1px #2c0648;
+  color: #650da5;
+}
 
+button {
+  border-radius: 15px;
+  box-shadow: -0.16px -0.42px 3px 0.24px #fff, 1.42px 1.16px 3px 0.42px #000;
+  text-shadow: -0.76px -0.58px 1px #fff, 1.42px 1.24px 1px #000;
+  font-size: 2.4rem;
+  color: #9e9a9a;
+  background: #9e9a9a;
+  text-shadow: -1.26px -0.38px 1px #fff, 0.42px 1.24px 1px #000, -1.58px -0.76px 0 #000, 0.52px 1.24px 0 #000;
+  width: 800px;
+  margin: 0 auto;
+  max-width: 90%;
+  position: fixed;
+  bottom: 10px;
+  box-shadow: 3px 2px 2px 0 #000;
+  background: #760cc3;
+  font-size: 3rem;
+  cursor: pointer;
+  text-shadow: 1.3px 1.3px 1px rgba(222,183,251,.88), -1.3px -1.7px 1px #2c0648;
+  color: #f5f2ed;
+  font-weight: 200;
+}
 .quote {
   height: auto;
   width: 100%;
