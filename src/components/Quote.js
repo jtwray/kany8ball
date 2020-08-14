@@ -5,34 +5,46 @@ import { fetchKanyeQuote } from "../actions";
 import { useImageAPI } from "../hooks/useImageAPI";
 import "../App.css";
 
-const img1 = yeezy;
 const img2 = `https://image.tmdb.org/t/p/original/aiLF9OBQ7LcglmAg0pXjyonGwye.jpg`;
-const Quote = ({ quote, error, isLoading, fetchKanyeQuote,isCartoon  }) => {
-  const [kanyeImg, kanyeImgAlt] = useImageAPI(`kanye west`);
+
+const Quote = ({ quote, error, isLoading, fetchKanyeQuote, isCartoon }) => {
+  const [kanyeImg, kanyeImgAlt, yeezybaby] = useImageAPI(`kanye west`);
+
   return (
     <div className="quoteContainer">
-      <div className="button--container">
-        <button onClick={() => fetchKanyeQuote()}>
-          drop a knowledge bomb <hr /> 💣
-        </button>
+      <div className="headerTitle">       
+        <h1> kany🎱</h1> 
       </div>
-      {error && (<div>{error}</div>)({ isLoading }) ? (
-        <div>...its Comin`</div>
-      ) : (
-        <div>
-          <img
-            src={(isCartoon == true ? img2 : yeezy || kanyeImgAlt || img2)}
-            styles={{ zIndex: "2" }}
-            alt="images of Kanye West"
-          />{" "}
-   
-      
-          <p onClick={() => fetchKanyeQuote()} className="quote">
-            {quote}
-          </p>
+      <div className="Main">
+            {error && <div className="error">{error}</div>}
+
+            {isLoading && <div className="loading">...its Comin`</div>}
+
+            {
+              !error && !isLoading && 
+              <div className="quoteImgBtn">
+                  <div className="imgBtn">
+                    <img
+                      src={isCartoon === true ? img2 : yeezybaby || kanyeImgAlt || img2}
+                      styles={{ zIndex: "2" }}
+                      alt="images of Kanye West"
+                      />
+                    <button 
+                      onClick={() => fetchKanyeQuote()}>
+                      drop a knowledge bomb <hr /> 💣
+                    </button>
+                  </div>
+                  <div className="quote">
+                    <p 
+                      onClick={() => fetchKanyeQuote()}
+                      >{quote}
+                    </p>
+                  </div>         
+              </div>
+            }
         </div>
-      )}
-    </div>
+      </div>
+      
   );
 };
 

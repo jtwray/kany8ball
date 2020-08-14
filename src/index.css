@@ -1,24 +1,29 @@
+h1, img, .quote p {
+  padding: 1rem;
+  font-size: 6rem;
+  text-shadow: 0.5px 0.5px 0 #000, 1.75px 1.75px 1px #fff, 2px 3px 1px purple, 0 -3px 59px #fff;
+  border-radius: 15px;
+  box-shadow: 0.1px 0.1px 0.6px #303, -0.1px -0.1px 0.6px #cd00cd, 0.2px 0.2px 0.6px #303, -0.2px -0.2px 0.6px #cd00cd, 0.3px 0.3px 0.6px #303, -0.3px -0.3px 0.6px #cd00cd, 0.4px 0.4px 0.6px #303, -0.4px -0.4px 0.6px #cd00cd, 0.5px 0.5px 0.6px #303, -0.5px -0.5px 0.6px #cd00cd, 0.6px 0.6px 0.6px #303, -0.6px -0.6px 0.6px #cd00cd, 0.7px 0.7px 0.6px #303, -0.7px -0.7px 0.6px #cd00cd, 0.8px 0.8px 0.6px #303, -0.8px -0.8px 0.6px #cd00cd, 0.9px 0.9px 0.6px #303, -0.9px -0.9px 0.6px #cd00cd, 0.1px 0.1px 0.6px #303, -0.1px -0.1px 0.6px #cd00cd, 0.11px 0.11px 0.6px #303, -0.11px -0.11px 0.6px #cd00cd, 0.12px 0.12px 0.6px #303, -0.12px -0.12px 0.6px #cd00cd, 0.13px 0.13px 0.6px #303, -0.13px -0.13px 0.6px #cd00cd, 1.1px 1.1px 0.6px #303, -1.1px -1.1px 0.6px #cd00cd, 1.2px 1.2px 0.6px #303, -1.2px -1.2px 0.6px #cd00cd, 1.3px 1.3px 0.6px #303, -1.3px -1.3px 0.6px #cd00cd, 1.4px 1.4px 0.6px #303, -1.4px -1.4px 0.6px #cd00cd, 1.5px 1.5px 0.6px #303, -1.5px -1.5px 0.6px #cd00cd, 1.6px 1.6px 0.6px #303, -1.6px -1.6px 0.6px #cd00cd, 1.7px 1.7px 0.6px #303, -1.7px -1.7px 0.6px #cd00cd, 1.8px 1.8px 0.6px #303, -1.8px -1.8px 0.6px #cd00cd, 1.9px 1.9px 0.6px #303, -1.9px -1.9px 0.6px #cd00cd, 1.1px 1.1px 0.7px #303, -1.1px -1.1px 0.7px #cd00cd, 1.11px 1.11px 0.7px #303, -1.11px -1.11px 0.7px #cd00cd, 1.12px 1.12px 0.7px #303, -1.12px -1.12px 0.7px #cd00cd, 1.13px 1.13px 0.7px #303, -1.13px -1.13px 0.7px #cd00cd, 2.1px 2.1px 0.7px #303, -2.1px -2.1px 0.7px #cd00cd, 2.2px 2.2px 0.7px #303, -2.2px -2.2px 0.7px #cd00cd, 2.3px 2.3px 0.7px #303, -2.3px -2.3px 0.7px #cd00cd, 2.4px 2.4px 0.7px #303, -2.4px -2.4px 0.7px #cd00cd, 2.5px 2.5px 0.7px #303, -2.5px -2.5px 0.7px #cd00cd, 2.6px 2.6px 0.7px #303, -2.6px -2.6px 0.7px #cd00cd, 2.7px 2.7px 0.7px #303, -2.7px -2.7px 0.7px #cd00cd, 2.8px 2.8px 0.7px #303, -2.8px -2.8px 0.7px #cd00cd, 2.9px 2.9px 0.7px #303, -2.9px -2.9px 0.7px #cd00cd, 2.1px 2.1px 0.7px #303, -2.1px -2.1px 0.7px #cd00cd, 2.11px 2.11px 0.7px #303, -2.11px -2.11px 0.7px #cd00cd, 2.12px 2.12px 0.7px #303, -2.12px -2.12px 0.7px #cd00cd, 2.13px 2.13px 0.7px #303, -2.13px -2.13px 0.7px #cd00cd, 3.1px 3.1px 0.7px #303, -3.1px -3.1px 0.7px #cd00cd, 3.2px 3.2px 0.7px #303, -3.2px -3.2px 0.7px #cd00cd, 3.3px 3.3px 0.7px #303, -3.3px -3.3px 0.7px #cd00cd, 3.4px 3.4px 0.7px #303, -3.4px -3.4px 0.7px #cd00cd, 3.5px 3.5px 0.7px #303, -3.5px -3.5px 0.7px #cd00cd, 3.6px 3.6px 0.8px #303, -3.6px -3.6px 0.8px #cd00cd, 3.7px 3.7px 0.8px #303, -3.7px -3.7px 0.8px #cd00cd, 3.8px 3.8px 0.8px #303, -3.8px -3.8px 0.8px #cd00cd, 3.9px 3.9px 0.8px #303, -3.9px -3.9px 0.8px #cd00cd, 3.1px 3.1px 0.8px #303, -3.1px -3.1px 0.8px #cd00cd, 3.11px 3.11px 0.8px #303, -3.11px -3.11px 0.8px #cd00cd, 3.12px 3.12px 0.8px #303, -3.12px -3.12px 0.8px #cd00cd, 3.13px 3.13px 0.8px #303, -3.13px -3.13px 0.8px #cd00cd, 4.1px 4.1px 0.8px #303, -4.1px -4.1px 0.8px #cd00cd, 4.2px 4.2px 0.8px #303, -4.2px -4.2px 0.8px #cd00cd, 4.3px 4.3px 0.8px #303, -4.3px -4.3px 0.8px #cd00cd, 4.4px 4.4px 0.8px #303, -4.4px -4.4px 0.8px #cd00cd, 4.5px 4.5px 0.8px #303, -4.5px -4.5px 0.8px #cd00cd, 4.6px 4.6px 0.8px #303, -4.6px -4.6px 0.8px #cd00cd, 4.7px 4.7px 0.8px #303, -4.7px -4.7px 0.8px #cd00cd, 4.8px 4.8px 0.8px #303, -4.8px -4.8px 0.8px #cd00cd, 4.9px 4.9px 0.8px #303, -4.9px -4.9px 0.8px #cd00cd, 4.1px 4.1px 0.8px #303, -4.1px -4.1px 0.8px #cd00cd, 4.11px 4.11px 0.8px #303, -4.11px -4.11px 0.8px #cd00cd, 4.12px 4.12px 0.8px #303, -4.12px -4.12px 0.8px #cd00cd, 4.13px 4.13px 0.8px #303, -4.13px -4.13px 0.8px #cd00cd, 5.1px 5.1px 3.6px #303, -5.1px -5.1px 0.9px #cd00cd, 5.2px 5.2px 0.9px #303, -5.2px -5.2px 0.9px #cd00cd, 5.3px 5.3px 0.9px #303, -5.3px -5.3px 0.9px #cd00cd, 5.4px 5.4px 0.9px #303, -5.4px -5.4px 0.9px #cd00cd, 5.5px 5.5px 0.9px #303, -5.5px -5.5px 0.9px #cd00cd, 5.6px 5.6px 0.9px #303, -5.6px -5.6px 0.9px #cd00cd, 5.7px 5.7px 0.9px #303, -5.7px -5.7px 0.9px #cd00cd, 5.8px 5.8px 0.9px #303, -5.8px -5.8px 0.9px #cd00cd, 5.9px 5.9px 0.9px #303, -5.9px -5.9px 0.9px #cd00cd, 5.1px 5.1px 0.9px #303, -5.1px -5.1px 0.9px #cd00cd, 5.11px 5.11px 0.9px #303, -5.11px -5.11px 0.9px #cd00cd, 5.12px 5.12px 0.9px #303, -5.12px -5.12px 0.9px #cd00cd, 5.13px 5.13px 0.9px #303, -5.13px -5.13px 0.9px #cd00cd, 6.1px 6.1px 0.9px #303, -6.1px -6.1px 0.9px #cd00cd, 6.2px 6.2px 0.9px #303, -6.2px -6.2px 0.9px #cd00cd, 6.3px 6.3px 0.9px #303, -6.3px -6.3px 0.9px #cd00cd, 6.4px 6.4px 0.9px #303, -6.4px -6.4px 0.9px #cd00cd, 6.5px 6.5px 0.9px #303, -6.5px -6.5px 0.9px #cd00cd, 6.6px 6.6px 0.9px #303, -6.6px -6.6px 0.9px #cd00cd, 6.7px 6.7px 0.9px #303, -6.7px -6.7px 0.9px #cd00cd, 6.8px 6.8px 0.9px #303, -6.8px -6.8px 0.9px #cd00cd, 6.9px 6.9px 0.9px #303, -6.9px -6.9px 1px #cd00cd, 6.1px 6.1px 1px #303, -6.1px -6.1px 1px #cd00cd, 6.11px 6.11px 1px #303, -6.11px -6.11px 1px #cd00cd, 6.12px 6.12px 1px #303, -6.12px -6.12px 1px #cd00cd, 6.13px 6.13px 1px #303, -6.13px -6.13px 1px #cd00cd, 7.1px 7.1px 1px #303, -7.1px -7.1px 1px #cd00cd, 7.2px 7.2px 1px #303, -7.2px -7.2px 1px #cd00cd, 7.3px 7.3px 1px #303, -7.3px -7.3px 1px #cd00cd, 7.4px 7.4px 1px #303, -7.4px -7.4px 1px #cd00cd, 7.5px 7.5px 1px #303, -7.5px -7.5px 1px #cd00cd, 7.6px 7.6px 1px #303, -7.6px -7.6px 1px #cd00cd, 7.7px 7.7px 1px #303, -7.7px -7.7px 1px #cd00cd, 7.8px 7.8px 1px #303, -7.8px -7.8px 1px #cd00cd, 7.9px 7.9px 1px #303, -7.9px -7.9px 1px #cd00cd, 7.1px 7.1px 1px #303, -7.1px -7.1px 1px #cd00cd, 7.11px 7.11px 1px #303, -7.11px -7.11px 1px #cd00cd, 7.12px 7.12px 1px #303, -7.12px -7.12px 1px #cd00cd, 7.13px 7.13px 1px #303, -7.13px -7.13px 1px #cd00cd, 8.1px 8.1px 1.6px #303, -8.1px -8.1px 1.6px #cd00cd, 8.2px 8.2px 1.6px #303, -8.2px -8.2px 1.6px #cd00cd, 8.3px 8.3px 1.6px #303, -8.3px -8.3px 1.6px #cd00cd, 8.4px 8.4px 1.6px #303, -8.4px -8.4px 1.6px #cd00cd, 8.5px 8.5px 1.6px #303, -8.5px -8.5px 1.6px #cd00cd, 8.6px 8.6px 1.6px #303, -8.6px -8.6px 1.6px #cd00cd, 8.7px 8.7px 1.6px #303, -8.7px -8.7px 1.6px #cd00cd, 8.8px 8.8px 1.6px #303, -8.8px -8.8px 1.6px #cd00cd, 8.9px 8.9px 1.6px #303, -8.9px -8.9px 1.6px #cd00cd, 8.1px 8.1px 1.6px #303, -8.1px -8.1px 1.6px #cd00cd, 8.11px 8.11px 1.6px #303, -8.11px -8.11px 1.6px #cd00cd, 8.12px 8.12px 1.6px #303, -8.12px -8.12px 1.6px #cd00cd, 8.13px 8.13px 1.6px #303, -8.13px -8.13px 1.6px #cd00cd;
+}
+.quote p {
+  padding: 1rem;
+  font-size: 3.3rem;}
+
+
 html {
-  padding: 50px 0;
   font-size: 62.5%;
+  margin: 0 auto;
   width: 100%;
   max-width: 880px;
-  height: auto;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  text-shadow: 1.2px 1px 1px #fff, 3.2px 2.2px 1px purple, 5px 5px 1px #1a0101,
-    5.1px 5.7px 0 #000, 6px 6px 0 #fff;
-  color: #9370db;
-  background: repeating-radial-gradient(
-    circle at 100%,
-    #333,
-    #333 10px,
-    #eee 0,
-    purple 20px
-  );
+  text-shadow: -1.2px -1px 1px #fff, -3.2px -2.2px 1px purple,
+    -5px -5px 1px #1a0101, 5.1px 5.7px 0 #000, 6px 6px 0 #fff;
+  /* background: repeating-radial-gradient(circle at 100%,#333,#333 10px,#eee 0,purple 20px); */
   background: repeating-radial-gradient(
     circle at 44% 4%,
     #333,
@@ -31,7 +36,7 @@ html {
     indigo 311px
   );
   background: repeating-radial-gradient(
-    circle at 44% 4%,
+    circle at 74% 52%,
     #333,
     #333 16.18px,
     #eee 26.179px,
@@ -42,57 +47,225 @@ html {
     indigo 301.432px
   );
   background-repeat: no-repeat;
-  margin: 0 auto;
-  box-shadow: inset 3.4px 3.4px 4px 4px antiquewhite,
-    inset -3.4px -3.4px 4px 4px darkgrey;
-  border: 1rem solid white;
-  text-shadow: 1px 1px 1px white, -1px -1px 1px black;
-  transition: background 1s ease;
+  height: auto;
 }
-h1,
-img,
-p,
-p.quote {
-  background: #d0cbcb;
-  border-radius: 15px;
-  text-shadow: 0.5px 0.5px 1px white, -0.5px -0.5px 1px black;
-  color: #e0e0e0;
-  padding: 2rem 3rem;
-  box-shadow: -0.6px -0.6px 0.5px 1px lightgrey, 0.6px 0.6px 0.5px 1px black;
-  margin: 3rem 1rem;
-  font-size: 3rem;
-}
-img {
-  max-height: 50vh;
-  margin: 3rem 1rem auto;
-  max-width: fit-content;
-}
-button {
-  border-radius: 9px;
-  box-shadow: 3px 2px 2px 0 #000;
-  background: #650da5;
-  font-size: 3rem;
-  cursor: pointer;
-  text-shadow: 1.3px 1.3px 1px #deb7fbe0, -0.3px -0.3px 1px #2c0648;
-  color: #650da5ba;
-  width: 400px;
-  margin: 30px 10px;
-  padding: 2rem 3rem;
-  max-width: fit-content;
+.quoteContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: auto;
 }
 
-@media (min-width: 600px) {
-  .grid {
+.headerTitle {
+  width: 98%;
+  max-width: 100%;
+}
+
+.headerTitle h1 {
+  text-shadow: -0.76px -1.42px 1px grey, 1.24px 2.48px black;
+  color: white;
+  font-weight: 200;
+  margin: 0 auto;
+  background: repeating-radial-gradient(
+    circle at 48% -29%,
+    #333,
+    #333 16.18px,
+    #eee 26.179px,
+    purple 42.359px,
+    orange 71.162px,
+    red 115.141px,
+    #fff 186.299px,
+    indigo 301.432px
+  );
+  box-shadow: 2px 1px 1px 0.24px #131212, -2px -1px 1px 0.24px #f3ebeb;
+}
+
+.quoteImgBtn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  max-width: 860px;
+  min-height: 80vh;
+}
+
+.imgBtn {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: space-evenly;
+  max-width: 50%;
+}
+
+.imgBtn > img {
+  height: auto;
+  width: 38vw;
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 1rem;
+}
+
+button {
+  border-radius: 15px;
+  box-shadow: -0.16px -0.42px 3px 0.24px white, 1.42px 1.16px 3px 0.42px black;
+  text-shadow: -0.76px -0.58px 1px white, 1.42px 1.24px 1px black;
+  font-size: 2.4rem;
+  color: #9e9a9a;
+  background: #9e9a9a;
+  text-shadow: -1.26px -0.38px 1px white, 0.42px 1.24px 1px black,
+    -1.58px -0.76px 0px black, 0.52px 1.24px 0px black;
+    width: 800px;
+    margin: 0 auto;
+    max-width: 90%;
+    position: fixed;
+    bottom: 10px;
+}
+
+button:hover {
+  color: lightgray;
+  background: lightgray;
+  text-shadow: 0.74px 0.62px 1px white, -0.58px -1.76px 1px black,
+    1.42px 1.24px 0px black, 1.52px -1.76px 0px black;
+}
+
+.quote {
+  height: auto;
+  width: 100%;
+  margin-bottom: 10%;
+  max-width: 40%;
+}
+
+.quote p {
+  font-size: 4rem;
+  font-weight: 100;
+  color: #060606;
+  background: #ffffff9e;
+  text-shadow: -1px -1px 1px white, 1px 1px 1px #827d7de6, 0.5px 0.5px 0 #000,
+    1.75px 1.75px 1px #fff, 2px 3px 1px purple, 0 -3px 59px #fff;
+  box-shadow: -2px -2px 3px 0.42px white, 3px 2px 3px 0.42px black;
+  font-size: 3.3rem;
+  margin-bottom: 20%;
+  /* border-bottom: .4rem #ff0c0c solid; */
+}
+
+.error {
+  font-size: 5rem;
+  margin: 0 auto;
+  color: red;
+  /* top: -4rem; */
+  /* padding: 1rem; */
+  /* position: fixed; */
+  text-shadow: -1px -1px 1px white, 1px 1px 1px black;
+  background: white;
+  border-radius: 15px;
+  border-bottom: red 0.6rem solid;
+  padding: 1rem;
+}
+
+.loading {
+  font-size: 5rem;
+  margin: 0 auto;
+  color: #0ff000;
+  position: fixed;
+  text-shadow: -1px -1px 1px white, 1px 1px 1px black;
+  background: white;
+  border-radius: 15px;
+  border-bottom: #0ff0007a 0.6rem solid;
+  padding: 1rem;
+}
+
+html {
+  height: auto;
+  min-height: -webkit-fill-available;
+  min-height: 100vh;
+}
+@media (max-width: 600px) {
+  .Main {
+    display: unset;
+    flex-direction: unset;
+  }
+
+  .headerTitle {
+    width: auto;
+    position: unset;
+    top: unset;
+  }
+
+  .headerTitle h1 {
+    text-shadow: -0.76px -1.42px 1px grey, 1.24px 2.48px black;
+    color: white;
+    font-weight: 200;
+    margin: 0 auto;
+    background: repeating-radial-gradient(
+      circle at 50% -21%,
+      #333,
+      #333 16.18px,
+      #eee 26.179px,
+      purple 42.359px,
+      orange 71.162px,
+      red 115.141px,
+      #fff 186.299px,
+      indigo 301.432px
+    );
+    box-shadow: 2px 1px 1px 0.24px #131212, -2px -1px 1px 0.24px #f3ebeb;
+  }
+
+  .quoteImgBtn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-direction: column-reverse;
+    min-height:unset;
+  }
+
+  .imgBtn {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    place-content: space-evenly;
+    height: auto;
+    justify-content: space-evenly;
+    max-width: 95vw;
+    width: 100%;
+    margin: 0 auto;
   }
-}
+  .imgBtn > img {
+    height: auto;
+    width: 95vw;
+    max-width: 70%;
+    margin: 4rem auto;
+    padding: 1rem;
+  }
+  button {
+    border-radius: 15px;
+    box-shadow: -0.16px -0.42px 3px 0.24px white, 1.42px 1.16px 3px 0.42px black;
+    text-shadow: -0.76px -0.58px 1px white, 1.42px 1.24px 1px black;
+    font-size: 2.4rem;
+    color: lightgray;
+    background: lightgray;
+    text-shadow: 0.74px 0.62px 1px white, -0.58px -0.76px 1px black,
+      0.02px 0.74px 2px black;
+    width: 95vw;
+    margin: 0 auto;
+  }
 
-@media screen and (max-width: 300px) {
-  img {
-    max-height: 50vh;
-    max-width: 200px;
+  .quoteContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    height: unset;
+  }
+
+  .quote {
+    height: auto;
+    position: unset;
+    top: unset;
+    width: 95vw;
+    max-width: 100%;
+    margin-bottom: auto;
+  }
+  .quote p {
+    font-size: 3.3rem;
+    margin-bottom: auto;
   }
 }
