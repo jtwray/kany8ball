@@ -14,7 +14,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0"
   },
-  "homepage": "https://jtwray.github.io/ReactReduxThunk/",
+  
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
