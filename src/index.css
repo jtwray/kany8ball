@@ -48,6 +48,7 @@ html {
   );
   background-repeat: no-repeat;
   height: auto;
+  box-shadow: inset 3.4px 3.4px 4px 4px #faebd7, inset -3.4px -3.4px 4px 4px #a9a9a9;
 }
 .quoteContainer {
   display: flex;
