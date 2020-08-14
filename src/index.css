@@ -107,28 +107,27 @@ html {
   padding: 1rem;
 }
 
+
+
+
 button {
   border-radius: 15px;
   box-shadow: -0.16px -0.42px 3px 0.24px white, 1.42px 1.16px 3px 0.42px black;
   text-shadow: -0.76px -0.58px 1px white, 1.42px 1.24px 1px black;
-  font-size: 2.4rem;
-  color: #9e9a9a;
-  background: #9e9a9a;
-  text-shadow: -1.26px -0.38px 1px white, 0.42px 1.24px 1px black,
-    -1.58px -0.76px 0px black, 0.52px 1.24px 0px black;
-    width: 800px;
-    margin: 0 auto;
-    max-width: 90%;
-    position: fixed;
-    bottom: 10px;
-}
-
-button:hover {
+  font-size: 3.0rem;
+  font-weight: 200;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
   color: lightgray;
   background: lightgray;
-  text-shadow: 0.74px 0.62px 1px white, -0.58px -1.76px 1px black,
-    1.42px 1.24px 0px black, 1.52px -1.76px 0px black;
+  text-shadow: 0.74px 0.62px 1px white, -0.58px -0.76px 1px black, 0.02px 0.74px 2px black;
+  max-width: 90%;
+  width: 800px;
+  margin: 0 auto;
 }
+
+
 button:hover {
   color: #d3d3d3;
   background: #d3d3d3;
@@ -139,29 +138,18 @@ button:hover {
   cursor: pointer;
   text-shadow: 1.1px 1.3px 0px rgba(222,183,251,.88), -1.3px -1.3px 1px #2c0648;
   color: #650da5;
+  background: #d0cbcb;
+  border-radius: 15px;
+  text-shadow: 0.5px 0.5px 1px #fff, -0.5px -0.5px 1px #000;
+  /* color: #e0e0e0; */
+
+  box-shadow: -0.6px -0.6px 0.5px 1px #d3d3d3, 0.6px 0.6px 0.5px 1px #000;
 }
 
-button {
-  border-radius: 15px;
-  box-shadow: -0.16px -0.42px 3px 0.24px #fff, 1.42px 1.16px 3px 0.42px #000;
-  text-shadow: -0.76px -0.58px 1px #fff, 1.42px 1.24px 1px #000;
-  font-size: 2.4rem;
-  color: #9e9a9a;
-  background: #9e9a9a;
-  text-shadow: -1.26px -0.38px 1px #fff, 0.42px 1.24px 1px #000, -1.58px -0.76px 0 #000, 0.52px 1.24px 0 #000;
-  width: 800px;
-  margin: 0 auto;
-  max-width: 90%;
-  position: fixed;
-  bottom: 10px;
-  box-shadow: 3px 2px 2px 0 #000;
-  background: #760cc3;
-  font-size: 3rem;
-  cursor: pointer;
-  text-shadow: 1.3px 1.3px 1px rgba(222,183,251,.88), -1.3px -1.7px 1px #2c0648;
-  color: #f5f2ed;
-  font-weight: 200;
+button:hover hr {
+  background: mediumpurple;
 }
+
 .quote {
   height: auto;
   width: 100%;
